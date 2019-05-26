@@ -1,0 +1,91 @@
+@CHARSET "UTF-8";
+body {
+	background-color: #7fffd4;
+	padding: 10px;
+}
+
+blue {
+	background-color: #3b8ec2; 
+}
+
+#singleButton {
+	position: fixed;
+	top: 200px;
+    right: 50px; 
+}
+
+#mainTable {
+	border: 0px;
+	text-align: center;
+	width: 80%;
+	margin: 60px;
+}
+
+#contentTable{
+	border-style: groove;
+	margin: 50px;
+	padding: 2px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: center;
+	background-color: #ffffff; 
+}
+
+#contentTable td, #contentTable th{
+	border: 1px solid black;
+	text-align: center;
+}
+
+.selected {
+  background: #8ae234;
+}
+
+fieldset {
+	display: inline;
+	float: bottom;
+}
+
+/***************************************************************
+Employee forms
+***************************************************************/
+
+#employeeForm {
+		width: 800px;
+	}
+	#employeeForm label {
+		width: 250px;
+	}
+	#employeeForm label.error, #employeeForm input.submit {
+		margin-left: 20px;
+	}
+
+/***************************************************************
+Style of the main table
+***************************************************************/
+#main-container {
+	width: 100%;
+	height: 100%;
+}
+
+/***************************************************************
+Content styles (TD tag in the main middle row)
+***************************************************************/
+.content {
+	height: 100%;
+	background: #aquamarine;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	text-align: left;
+	vertical-align: top;
+}
+
+/***************************************************************
+Style for the ERROR message
+***************************************************************/
+
+
+.error {
+	font-size: medium;
+	color: rgb(204, 0, 0);
+}
