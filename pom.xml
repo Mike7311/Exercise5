@@ -22,7 +22,7 @@
   	<jetty.version>9.3.13.v20161014</jetty.version>
   	<jstl.version>1.2</jstl.version>
   	<jdk.version>1.8</jdk.version>
-  	<junit.version>4.12</junit.version>
+  	<junit.version>4.13.1</junit.version>
   	<log4j.version>2.6.2</log4j.version>
   	<lombok.version>1.16.20</lombok.version>
   	<maven.compiler.plugin.version>3.6.2</maven.compiler.plugin.version>
