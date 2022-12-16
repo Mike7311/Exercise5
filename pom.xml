@@ -28,7 +28,7 @@
   	<maven.compiler.plugin.version>3.6.2</maven.compiler.plugin.version>
   	<mockito.version>1.10.19</mockito.version>
   	<mysql.connector.version>5.1.40</mysql.connector.version>
-  	<spring.version>4.3.5.RELEASE</spring.version>
+  	<spring.version>5.2.20.RELEASE</spring.version>
   	<spring-data-jpa.version>1.11.21.RELEASE</spring-data-jpa.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
